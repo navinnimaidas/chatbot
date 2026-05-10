@@ -1,0 +1,101 @@
+#==================
+#Jupyter Support
+#==================
+
+ipykernel
+
+#==================
+#General Utilities
+#==================
+python-box
+plotly
+
+#================
+# Caching
+#================
+cachetools 
+# =========================
+# Core LLM Framework
+# =========================
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+
+# =========================
+# Groq Integration
+# =========================
+langchain-groq
+groq
+
+# =========================
+# Google Embeddings
+# =========================
+google-generativeai
+langchain-google-genai
+langchain-milvus
+
+# =========================
+# Vector Database
+# =========================
+faiss-cpu
+
+# =========================
+# Document Loaders
+# =========================
+pypdf
+pymupdf
+unstructured
+python-docx
+beautifulsoup4
+lxml
+
+
+# =========================
+# Frontend
+# =========================
+streamlit
+
+# =========================
+# Environment Variables
+# =========================
+python-dotenv
+
+# Optional DBs
+# pymysql
+# asyncpg
+
+# =========================
+# Observability & Logging
+# =========================
+loguru
+
+# Optional tracing
+# langsmith
+
+# =========================
+# Async & HTTP
+# =========================
+httpx
+aiofiles
+
+# =========================
+# Data Processing
+# =========================
+pandas
+
+# =========================
+# Testing
+# =========================
+pytest
+pytest-cov
+
+# =========================
+# Security / Validation
+# =========================
+pydantic
+
+# =========================
+# Optional Markdown Support
+# =========================
+markdown
