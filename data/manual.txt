@@ -1,0 +1,855 @@
+# SmartBank Pro – End User Support Documentation
+
+## Document Information
+
+| Field            | Details                              |
+| ---------------- | ------------------------------------ |
+| Application Name | SmartBank Pro                        |
+| Version          | 5.2.1                                |
+| Document Type    | End User Support Manual              |
+| Intended Use     | RAG-based customer support assistant |
+| Prepared By      | Documentation Team                   |
+| Last Updated     | May 2026                             |
+
+---
+
+# Table of Contents
+
+1. Introduction
+2. System Requirements
+3. User Login and Authentication
+4. Dashboard Overview
+5. Account Management
+6. Fund Transfers
+7. Bill Payments
+8. Card Services
+9. Loan Services
+10. Fixed Deposits and Investments
+11. Notifications and Alerts
+12. Profile and Security Settings
+13. Mobile Banking Features
+14. Common Error Messages
+15. Troubleshooting Guide
+16. Frequently Asked Questions
+17. Contact and Escalation Matrix
+18. Glossary
+
+---
+
+# 1. Introduction
+
+SmartBank Pro is a digital banking platform designed for retail and corporate customers. The application enables users to perform banking operations such as checking balances, transferring funds, managing cards, paying bills, applying for loans, and monitoring investments.
+
+The purpose of this document is to help users understand the application features and resolve common operational issues while using the banking platform.
+
+## Key Features
+
+* Secure login with multi-factor authentication
+* Real-time account balance updates
+* Domestic and international fund transfers
+* Utility and credit card bill payments
+* Loan application and EMI tracking
+* Fixed deposit creation and management
+* Debit and credit card controls
+* Mobile and web banking access
+* Instant notifications and alerts
+
+## Supported Platforms
+
+* Web Browser Application
+* Android Mobile Application
+* iOS Mobile Application
+* Tablet Devices
+
+## Browser Compatibility
+
+| Browser         | Minimum Version |
+| --------------- | --------------- |
+| Google Chrome   | 110             |
+| Mozilla Firefox | 108             |
+| Microsoft Edge  | 109             |
+| Safari          | 15              |
+
+---
+
+# 2. System Requirements
+
+## Desktop Requirements
+
+| Component         | Minimum Requirement |
+| ----------------- | ------------------- |
+| RAM               | 4 GB                |
+| Processor         | Dual Core           |
+| Internet Speed    | 5 Mbps              |
+| Screen Resolution | 1366x768            |
+
+## Mobile Requirements
+
+| Platform | Supported Version    |
+| -------- | -------------------- |
+| Android  | Android 11 and above |
+| iOS      | iOS 15 and above     |
+
+## Internet Connectivity
+
+The application requires a stable internet connection. Users may experience session timeout issues if network connectivity fluctuates during transactions.
+
+## Recommended Security Practices
+
+* Do not use public Wi-Fi for banking transactions.
+* Always log out after completing transactions.
+* Never share OTP or password with anyone.
+* Enable biometric authentication on mobile devices.
+
+---
+
+# 3. User Login and Authentication
+
+## Login Procedure
+
+1. Open the SmartBank Pro application.
+2. Enter Customer ID or registered mobile number.
+3. Enter password.
+4. Click on "Login".
+5. Enter OTP received on registered mobile number.
+6. Access dashboard.
+
+## First-Time Login
+
+Users logging in for the first time must:
+
+* Verify registered mobile number
+* Create a secure password
+* Set security questions
+* Configure transaction PIN
+
+## Password Policy
+
+Passwords must contain:
+
+* Minimum 8 characters
+* One uppercase letter
+* One lowercase letter
+* One numeric digit
+* One special character
+
+## Login Error Messages
+
+| Error Message       | Cause                      | Resolution                         |
+| ------------------- | -------------------------- | ---------------------------------- |
+| Invalid Credentials | Wrong username or password | Re-enter credentials carefully     |
+| OTP Expired         | OTP validity exceeded      | Request new OTP                    |
+| User Locked         | Multiple failed attempts   | Wait 30 minutes or contact support |
+| Session Timeout     | Inactive session           | Login again                        |
+
+## Multi-Factor Authentication
+
+The application supports:
+
+* SMS OTP
+* Authenticator App
+* Biometric Authentication
+* Device-Based Verification
+
+---
+
+# 4. Dashboard Overview
+
+The dashboard provides a consolidated view of customer banking information.
+
+## Dashboard Widgets
+
+### Account Summary
+
+Displays:
+
+* Savings account balance
+* Current account balance
+* Fixed deposit summary
+* Loan outstanding amount
+
+### Recent Transactions
+
+Displays latest 10 transactions including:
+
+* Transaction date
+* Transaction amount
+* Beneficiary details
+* Transaction status
+
+### Quick Actions
+
+Users can directly access:
+
+* Fund transfer
+* Bill payment
+* Card management
+* Mini statement
+* UPI payments
+
+### Notifications Panel
+
+Shows:
+
+* Security alerts
+* Failed transaction alerts
+* Promotional messages
+* EMI reminders
+
+## Customizing Dashboard
+
+Users can:
+
+* Rearrange widgets
+* Hide unused panels
+* Set favorite actions
+* Change theme settings
+
+---
+
+# 5. Account Management
+
+## Viewing Account Details
+
+Navigate to:
+
+Accounts → Select Account
+
+Displayed Information:
+
+* Account number
+* Account type
+* Available balance
+* Branch information
+* IFSC code
+* Nominee details
+
+## Downloading Statements
+
+Users can download statements in:
+
+* PDF format
+* Excel format
+* CSV format
+
+## Statement Download Steps
+
+1. Navigate to Accounts.
+2. Select account.
+3. Click "Download Statement".
+4. Select date range.
+5. Choose file format.
+6. Download file.
+
+## Cheque Book Request
+
+Users can request:
+
+* New cheque book
+* Stop cheque payment
+* Track cheque status
+
+## Account Freeze Requests
+
+Accounts can be temporarily frozen in case of:
+
+* Lost mobile device
+* Suspected fraud
+* Unauthorized transactions
+
+---
+
+# 6. Fund Transfers
+
+## Types of Transfers
+
+| Transfer Type     | Processing Time   |
+| ----------------- | ----------------- |
+| Internal Transfer | Instant           |
+| NEFT              | Up to 2 hours     |
+| RTGS              | Within 30 minutes |
+| IMPS              | Instant           |
+| UPI               | Instant           |
+
+## Adding Beneficiary
+
+Steps:
+
+1. Navigate to Fund Transfer.
+2. Click "Add Beneficiary".
+3. Enter beneficiary details.
+4. Verify OTP.
+5. Save beneficiary.
+
+## Beneficiary Activation Time
+
+| Transfer Mode | Activation Time |
+| ------------- | --------------- |
+| Internal      | Immediate       |
+| NEFT          | 30 minutes      |
+| RTGS          | 30 minutes      |
+| IMPS          | Immediate       |
+
+## Transfer Limits
+
+| Transaction Type | Daily Limit   |
+| ---------------- | ------------- |
+| UPI              | INR 100,000   |
+| IMPS             | INR 500,000   |
+| NEFT             | INR 1,000,000 |
+| RTGS             | INR 2,000,000 |
+
+## Common Transfer Failures
+
+| Issue                 | Cause             | Solution              |
+| --------------------- | ----------------- | --------------------- |
+| Transaction Pending   | Bank server delay | Wait 30 minutes       |
+| Beneficiary Not Found | Incorrect details | Verify account number |
+| Daily Limit Exceeded  | Limit exhausted   | Retry next day        |
+| Insufficient Balance  | Low funds         | Add balance           |
+
+## Transaction Statuses
+
+* Success
+* Pending
+* Failed
+* Reversed
+* Processing
+
+---
+
+# 7. Bill Payments
+
+## Supported Bill Categories
+
+* Electricity
+* Water
+* Gas
+* Mobile Recharge
+* Broadband
+* DTH
+* Insurance Premium
+* Credit Card Bills
+
+## Registering a Biller
+
+1. Open Bill Payments.
+2. Select category.
+3. Search biller.
+4. Enter customer number.
+5. Verify details.
+6. Save biller.
+
+## AutoPay Setup
+
+Users can configure automatic bill payments.
+
+### AutoPay Options
+
+* Full amount
+* Minimum amount
+* Fixed amount
+
+## Bill Payment Status
+
+| Status    | Meaning                  |
+| --------- | ------------------------ |
+| Paid      | Payment successful       |
+| Pending   | Awaiting confirmation    |
+| Failed    | Payment unsuccessful     |
+| Scheduled | Future payment scheduled |
+
+## Failed Bill Payments
+
+Reasons include:
+
+* Network timeout
+* Biller server unavailable
+* Insufficient balance
+* Invalid customer number
+
+---
+
+# 8. Card Services
+
+## Supported Card Types
+
+* Debit Cards
+* Credit Cards
+* Virtual Cards
+* Forex Cards
+
+## Card Management Features
+
+Users can:
+
+* Block or unblock cards
+* Set transaction limits
+* Enable international usage
+* Generate virtual cards
+* Change PIN
+
+## Blocking a Lost Card
+
+Steps:
+
+1. Open Card Services.
+2. Select card.
+3. Click "Block Card".
+4. Confirm action.
+5. Receive confirmation message.
+
+## ATM PIN Generation
+
+Users can generate or reset ATM PIN through:
+
+* Mobile app
+* Internet banking
+* ATM machine
+
+## Credit Card Payments
+
+Supported methods:
+
+* Auto debit
+* Manual payment
+* UPI payment
+* NEFT payment
+
+## Card Transaction Alerts
+
+Alerts are sent for:
+
+* Online transactions
+* ATM withdrawals
+* International transactions
+* Failed transactions
+
+---
+
+# 9. Loan Services
+
+## Supported Loan Products
+
+| Loan Type      | Description          |
+| -------------- | -------------------- |
+| Personal Loan  | Unsecured loan       |
+| Home Loan      | Property financing   |
+| Vehicle Loan   | Automobile financing |
+| Education Loan | Academic funding     |
+| Gold Loan      | Loan against gold    |
+
+## Loan Application Process
+
+1. Select loan type.
+2. Enter applicant details.
+3. Upload documents.
+4. Submit application.
+5. Receive application ID.
+
+## Required Documents
+
+* Identity proof
+* Address proof
+* Income proof
+* Bank statements
+* PAN card
+
+## EMI Calculator
+
+Users can estimate:
+
+* Monthly EMI
+* Interest amount
+* Total repayment
+* Loan tenure
+
+## Loan Tracking
+
+Users can view:
+
+* Loan status
+* Disbursement details
+* EMI schedule
+* Outstanding amount
+
+## Loan Statuses
+
+* Submitted
+* Under Review
+* Approved
+* Rejected
+* Disbursed
+
+---
+
+# 10. Fixed Deposits and Investments
+
+## Fixed Deposit Features
+
+Users can:
+
+* Open FD online
+* Renew FD
+* Close FD prematurely
+* View maturity details
+
+## FD Creation Steps
+
+1. Navigate to Investments.
+2. Select Fixed Deposit.
+3. Enter amount.
+4. Select tenure.
+5. Review interest rate.
+6. Confirm creation.
+
+## FD Interest Payout Options
+
+* Monthly
+* Quarterly
+* Half-yearly
+* On maturity
+
+## Mutual Fund Investments
+
+Supported Features:
+
+* SIP setup
+* Lumpsum investment
+* Portfolio tracking
+* Redemption requests
+
+## Investment Risk Categories
+
+| Risk Level | Description              |
+| ---------- | ------------------------ |
+| Low        | Stable returns           |
+| Medium     | Moderate market exposure |
+| High       | High market volatility   |
+
+---
+
+# 11. Notifications and Alerts
+
+## Notification Channels
+
+* SMS
+* Email
+* Push notifications
+* In-app notifications
+
+## Alert Types
+
+* Debit alerts
+* Credit alerts
+* Login alerts
+* Failed login alerts
+* Card usage alerts
+* Loan EMI reminders
+
+## Notification Preferences
+
+Users can:
+
+* Enable or disable alerts
+* Select preferred channel
+* Configure quiet hours
+
+## Security Alerts
+
+Users receive immediate alerts for:
+
+* Password changes
+* New device login
+* Failed OTP attempts
+* High-value transactions
+
+---
+
+# 12. Profile and Security Settings
+
+## Profile Management
+
+Users can update:
+
+* Email address
+* Mobile number
+* Communication address
+* Nominee information
+
+## Password Reset Process
+
+1. Click "Forgot Password".
+2. Verify OTP.
+3. Answer security questions.
+4. Set new password.
+
+## Biometric Authentication
+
+Supported methods:
+
+* Fingerprint
+* Face recognition
+
+## Device Management
+
+Users can:
+
+* View active devices
+* Remove unauthorized devices
+* Enable trusted device login
+
+## Security Recommendations
+
+* Change password every 90 days.
+* Avoid sharing screen during banking.
+* Verify beneficiary details before transfers.
+* Report suspicious activity immediately.
+
+---
+
+# 13. Mobile Banking Features
+
+## Mobile App Features
+
+* QR code payments
+* UPI transfers
+* Biometric login
+* Mobile recharge
+* Scan and pay
+* Branch locator
+* ATM locator
+
+## Offline Mode
+
+Limited functionality available:
+
+* View cached transactions
+* View saved beneficiaries
+* Access customer support information
+
+## Mobile App Permissions
+
+Required permissions:
+
+* Camera access
+* SMS access
+* Notification access
+* Location access
+
+## App Update Recommendations
+
+Users should always update to the latest version to:
+
+* Improve security
+* Fix bugs
+* Access new features
+
+---
+
+# 14. Common Error Messages
+
+| Error Code | Message                | Recommended Action         |
+| ---------- | ---------------------- | -------------------------- |
+| ERR001     | Invalid Session        | Login again                |
+| ERR002     | OTP Validation Failed  | Retry OTP verification     |
+| ERR003     | Beneficiary Not Active | Wait for activation        |
+| ERR004     | Transaction Timeout    | Retry after some time      |
+| ERR005     | Service Unavailable    | Try later                  |
+| ERR006     | Account Frozen         | Contact support            |
+| ERR007     | Daily Limit Exceeded   | Retry next day             |
+| ERR008     | Duplicate Transaction  | Verify transaction history |
+
+## Server Downtime Messages
+
+The application may show maintenance notifications during scheduled maintenance windows.
+
+Example:
+
+"Services are temporarily unavailable due to scheduled maintenance from 2:00 AM to 4:00 AM."
+
+---
+
+# 15. Troubleshooting Guide
+
+## Application Not Loading
+
+Possible Causes:
+
+* Poor internet connection
+* Browser cache issue
+* Server downtime
+
+Resolution:
+
+* Refresh browser
+* Clear cache
+* Restart application
+* Check internet connection
+
+## OTP Not Received
+
+Possible Causes:
+
+* Network issue
+* DND enabled
+* Incorrect mobile number
+
+Resolution:
+
+* Wait 2 minutes
+* Request new OTP
+* Verify registered number
+* Contact telecom provider
+
+## Transaction Stuck in Pending
+
+Resolution Steps:
+
+1. Wait for 30 minutes.
+2. Check transaction history.
+3. Avoid duplicate transaction.
+4. Contact support if unresolved.
+
+## Mobile App Crashing
+
+Resolution:
+
+* Update app
+* Clear app cache
+* Reinstall application
+* Restart device
+
+---
+
+# 16. Frequently Asked Questions
+
+## Q1. How can I reset my password?
+
+Use the "Forgot Password" option on the login screen and complete OTP verification.
+
+## Q2. What should I do if money is debited but transfer failed?
+
+Wait for 30 minutes. If amount is not reversed automatically, contact customer support.
+
+## Q3. How do I activate international card usage?
+
+Navigate to Card Services → Card Controls → Enable International Usage.
+
+## Q4. Can I increase transfer limits?
+
+Yes. Users can request limit enhancement through profile settings or branch verification.
+
+## Q5. How do I update mobile number?
+
+Go to Profile Settings → Contact Information → Update Mobile Number.
+
+## Q6. What happens if I enter wrong password multiple times?
+
+The account may be temporarily locked for security reasons.
+
+## Q7. How can I download account statements?
+
+Go to Accounts → Download Statement.
+
+## Q8. Is biometric login secure?
+
+Yes. Biometric data is securely encrypted and stored on the device.
+
+---
+
+# 17. Contact and Escalation Matrix
+
+## Customer Support Channels
+
+| Channel          | Availability  |
+| ---------------- | ------------- |
+| Toll-Free Number | 24x7          |
+| Email Support    | 24x7          |
+| Chat Support     | 8 AM – 10 PM  |
+| Branch Support   | Banking hours |
+
+## Escalation Levels
+
+| Level   | Contact                    |
+| ------- | -------------------------- |
+| Level 1 | Customer Support Executive |
+| Level 2 | Branch Manager             |
+| Level 3 | Regional Support Team      |
+| Level 4 | Banking Ombudsman          |
+
+## Fraud Reporting
+
+Users should immediately report:
+
+* Unauthorized transactions
+* Phishing attempts
+* Lost cards
+* Account compromise
+
+---
+
+# 18. Glossary
+
+| Term | Meaning                            |
+| ---- | ---------------------------------- |
+| OTP  | One Time Password                  |
+| UPI  | Unified Payments Interface         |
+| IFSC | Indian Financial System Code       |
+| EMI  | Equated Monthly Installment        |
+| FD   | Fixed Deposit                      |
+| KYC  | Know Your Customer                 |
+| IMPS | Immediate Payment Service          |
+| RTGS | Real Time Gross Settlement         |
+| NEFT | National Electronic Funds Transfer |
+
+---
+
+# Appendix A – Sample User Scenarios
+
+## Scenario 1 – Successful Fund Transfer
+
+A user logs into the application, adds a beneficiary, completes OTP verification, and successfully transfers INR 10,000 through IMPS.
+
+Expected Result:
+
+* Transaction status should display as "Success".
+* SMS and email confirmation should be sent.
+* Account balance should update immediately.
+
+## Scenario 2 – Failed Bill Payment
+
+A user attempts to pay an electricity bill with insufficient balance.
+
+Expected Result:
+
+* Payment should fail.
+* Error message should display "Insufficient Balance".
+* No amount should be debited.
+
+## Scenario 3 – Password Reset
+
+A user forgets password and initiates password reset.
+
+Expected Result:
+
+* OTP verification should complete.
+* User should set new password.
+* Old password should become invalid.
+
+---
+
+# Appendix B – Sample Support Queries for RAG System
+
+Below are examples of questions users may ask the support assistant:
+
+* How do I reset my banking password?
+* Why is my transaction pending?
+* How can I add a beneficiary?
+* What is the daily transfer limit?
+* How do I block my debit card?
+* How can I download bank statements?
+* Why did my OTP expire?
+* How do I enable biometric login?
+* What should I do if money is debited twice?
+* How can I activate international transactions?
